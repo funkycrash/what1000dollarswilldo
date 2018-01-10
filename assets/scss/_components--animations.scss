@@ -1,0 +1,12 @@
+.ml12 {
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  font-size: 2em;
+  line-height: 2em;
+  font-family: $stack-title;
+} 
