@@ -45,7 +45,7 @@
 					</div>
 				</section>
 
-				<section data-background="/assets/img/slideshow-01.jpg" data-autoslide="2500">
+				<section data-background="/assets/img/slideshow-01.jpg" data-background-transition="convex" data-autoslide="2500">
 					<h3 class="text-shadow c-white">Impact in Action</h3>
 				</section>
 
@@ -53,7 +53,7 @@
 
 				</section>
 
-				<section data-background="/assets/img/slideshow-03.jpg" data-autoslide="2000">
+				<section data-background="/assets/img/slideshow-03.jpg" data-autoslide="3000">
 					 	<h3 class="text-shadow c-white max-width">I have made my way to Santa Teresa to meet a very special woman, Florentina Choc</h3>
 				</section>
 
@@ -66,7 +66,7 @@
 					 
 				</section>
 
-				<section data-background="/assets/img/slideshow-06.jpg" data-autoslide="2000">
+				<section data-background="/assets/img/slideshow-06.jpg" data-autoslide="3000">
 				</section>
 
 				<section data-background="/assets/img/slideshow-07.jpg" data-autoslide="3500">
@@ -76,16 +76,18 @@
 				<section data-background="#fee036" data-background-transition="convex" data-autoslide="29000">
 					<h3 class="c-black">From the Field</h3>
 					<div class="grid">
-						<h4>Testimony from a participant - Hear from a Solar Mama</h4>
+						<h4>Hear from a Solar Mama</h4>
 						<p>"I will come back with a title. I am a solar engineer"</p>
 						<video>
 						    <source data-src="/assets/video/video.mp4" type="video/mp4"/>
 						 </video>
+						 <p>Testimony from a participant</p>
 					</div>
 				</section>
 
 
-				<section data-background="#e68526" data-autoslide="3500">
+				<section data-background="#e68526" data-background-transition="convex" data-autoslide="3500">
+					<img src="/assets/img/barefootcollege_logo_white.png" width="300px" alt="barefoot college logo"/>
 					<h3 class="text-shadow c-white max-width">Thank you.</h3>
 					<br/>
 
@@ -127,10 +129,10 @@
 				Reveal.addEventListener( 'slidechanged', function( event ) {
 					// event.previousSlide, event.currentSlide, event.indexh, event.indexv
 					if (event.indexh == 9) {
-						sound.fade(1.0, 0.5, 1);
+						sound.fade(1.0, 0.2, 3);
 					} 
-					if (event.indexh == 10) {
-						sound.fade(0.5, 1.0, 1);
+					if (event.indexh == 10 || event.indexh == 8) {
+						sound.fade(0.2, 1.0, 3);
 					}
 
 				} );
