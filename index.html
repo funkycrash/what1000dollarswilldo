@@ -121,7 +121,10 @@
 
 				var sound = new Howl({
 				  src: ['/assets/music/background_music.mp3'],
-				  loop: true
+				  loop: true, 
+				  onload: function(){
+				  	console.log('sound loaded');
+				  }
 				});
 
 				sound.play();
