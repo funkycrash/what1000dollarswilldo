@@ -15,7 +15,6 @@ $(document).ready(function(){
   });
 
 
-
  var animateFirstPageText = function(){
     anime.timeline({loop: false})
     .add({
