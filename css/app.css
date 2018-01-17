@@ -149,11 +149,6 @@ body {
   font-size: 1em;
   line-height: 1.27777778em; }
 
-.max-width {
-  max-width: 600px;
-  margin: 0 auto !important;
-  display: block; }
-
 .text-shadow {
   text-shadow: #000 0px 0px 10px; }
 
