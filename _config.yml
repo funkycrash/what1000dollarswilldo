@@ -1,0 +1,38 @@
+# Site settings
+title: What Will 1000 Dollars do
+email: contact@what1000dollarswilldo.org
+description: >
+  Here is what your gift has made possible
+baseurl: ""
+url: "https://www.what1000dollarswilldo.org" # the base hostname & protocol for your site
+image_path: '/assets/img'
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+exclude: ['_sass', '_src', '_grunt', 'node_modules', 'Gruntfile.js', 'package.json', 'README.md', 'Gemfile', 'build.sh']
+
+# Enabling gems
+plugins_dir: [
+  "jekyll-contentful"
+]
+
+learnMoreText: 'Learn More'
+
+contentful:
+  preview: No 
+  production_access_token: a746c7b7119e931750ab3b50bab24cfa1da40215f8fc207a2eaf35b0dcf05e71
+  preview_access_token: a6d6a83c6d50761734298560aa4563c73d39e28d6dd87abfc48dbb63882ed58f
+  space: mx7r0rwnochp
+  content_types:
+   - "thankYou"
+  spaces:
+    - proddata: # Jekyll _data folder identifier - Required
+        space: mx7r0rwnochp        # Required
+        access_token: a746c7b7119e931750ab3b50bab24cfa1da40215f8fc207a2eaf35b0dcf05e71 # Required
+        cda_query:                 # Optional
+          include: 2
+          limit: 300
+        content_types:             # Optional
+         cat: thankYou
+ 

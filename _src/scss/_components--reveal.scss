@@ -1,10 +1,3 @@
-/*!
- * reveal.js
- * http://revealjs.com
- * MIT licensed
- *
- * Copyright (C) 2017 Hakim El Hattab, http://hakim.se
- */
 /*********************************************
  * RESET STYLES
  *********************************************/
@@ -25,7 +18,6 @@ html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal i
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline; }
 
 .reveal article, .reveal aside, .reveal details, .reveal figcaption, .reveal figure,
@@ -517,14 +509,14 @@ body {
   transition-duration: 400ms; }
 
 .reveal[data-transition-speed="slow"] .slides section {
-  transition-duration: 2200ms; }
+  transition-duration: 1500ms; }
 
 /* Slide-specific transition speed overrides */
 .reveal .slides section[data-transition-speed="fast"] {
   transition-duration: 400ms; }
 
 .reveal .slides section[data-transition-speed="slow"] {
-  transition-duration: 2200ms; }
+  transition-duration: 1500ms; }
 
 .reveal .slides > section.stack {
   padding-top: 0;
@@ -1164,7 +1156,7 @@ body {
   transition-duration: 400ms; }
 
 .reveal[data-transition-speed="slow"] > .backgrounds .slide-background {
-  transition-duration: 2200ms; }
+  transition-duration: 1500ms; }
 
 /*********************************************
  * OVERVIEW
