@@ -3,14 +3,14 @@ exclude: ['_sass', '_src', '_grunt', 'node_modules', 'Gruntfile.js', 'package.js
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
 
 page_gen:
-  - data: 'members'
-    template: 'profile'
-    name: 'full_name'
+  - data: 'contentful.spaces.donor.thankYou'
+    template: 'thank-you'
+    name: 'name'
     dir: 'thank-you'
  
 contentful:
   spaces:
-    - example: # Jekyll _data folder identifier - Required
+    - donor: # Jekyll _data folder identifier - Required
         space: mx7r0rwnochp         # Required
         access_token: a746c7b7119e931750ab3b50bab24cfa1da40215f8fc207a2eaf35b0dcf05e71  # Required
         cda_query:                  # Optional
@@ -20,4 +20,4 @@ contentful:
         all_entries_page_size: 1000 # Optional - Defaults to 1000, maximum amount of entries per CDA Request for all_entries
         content_types:              # Optional
           cat: thankYou
-        individual_entry_files: true # Optional - Defaults to false
+        individual_entry_files: false # Optional - Defaults to false
