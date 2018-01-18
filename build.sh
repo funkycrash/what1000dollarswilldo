@@ -1,7 +1,6 @@
 #!/bin/sh
 
 echo '### Fetching content ###'
-jekyll contentful
+bundle exec jekyll contentful --rebuild
 echo '### Building site ###'
-jekyll build
 echo '### DONE ###'
