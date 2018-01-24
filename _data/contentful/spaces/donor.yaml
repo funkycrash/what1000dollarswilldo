@@ -12,3 +12,9 @@ thankYou:
     updated_at: !ruby/object:DateTime 2018-01-18 00:44:57.255000000 Z
     content_type_id: thankYou
   name: Jacques Cousteau
+- sys:
+    id: 17u5seiZyoMk0eWkMQOYgW
+    created_at: !ruby/object:DateTime 2018-01-18 00:49:32.394000000 Z
+    updated_at: !ruby/object:DateTime 2018-01-18 00:49:32.394000000 Z
+    content_type_id: thankYou
+  name: mahatma gandhi

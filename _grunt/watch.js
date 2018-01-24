@@ -1,7 +1,7 @@
 module.exports = {
 	sass: {
         files: '_src/scss/**/*.scss',
-        tasks: ['sass']
+        tasks: ['sass', 'shell:jekyllBuild']
     },
     concat: {
         files: ['_src/js/**/*.js', '_src/js/main.js'],
