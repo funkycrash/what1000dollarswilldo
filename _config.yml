@@ -1,3 +1,5 @@
+url: https://what1000dollarswilldo.netlify.com
+
 exclude: ['_sass', '_src', '_grunt', 'node_modules', 'Gruntfile.js', 'package.json', 'README.md', 'Gemfile', 'build.sh']
 
 page_gen-dirs: true # uncomment, if you prefer to generate named folders

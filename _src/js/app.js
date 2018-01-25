@@ -5251,7 +5251,7 @@ $(document).ready(function(){
     controls: false,
     autoSlide: 5000,
     autoPlayMedia: true
-  });
+  }); 
 
 
  var animateFirstPageText = function(){
