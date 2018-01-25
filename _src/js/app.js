@@ -5246,12 +5246,6 @@ $(document).ready(function(){
     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
   });
 
-  // Slideshow initialization
-  Reveal.initialize({
-    controls: false,
-    autoSlide: 5000,
-    autoPlayMedia: true
-  }); 
 
 
  var animateFirstPageText = function(){
@@ -5277,6 +5271,13 @@ $(document).ready(function(){
       // Animate the text once all is loaded
       animateFirstPageText();
       $('#first').show();
+        // Slideshow initialization
+        Reveal.initialize({
+          controls: false,
+          autoSlide: 5000,
+          autoPlayMedia: true
+        }); 
+
     }
   });
 
