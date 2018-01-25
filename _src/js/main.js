@@ -37,7 +37,6 @@ $(document).ready(function(){
     onload: function(){
       // Animate the text once all is loaded
       animateFirstPageText();
-      $('.fullscreenloader').remove();
       $('#first').show();
     }
   });
