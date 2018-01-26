@@ -38,7 +38,6 @@ $(document).ready(function(){
           autoSlide: 5000,
           autoPlayMedia: true
         }); 
-
     }
   });
 
@@ -75,6 +74,9 @@ $(document).ready(function(){
     }
   });
 
+  setTimeout(function(){
+    $('.slide-background:first-of-type').addClass('zoom');
+  }, 200);
 
 });
 
