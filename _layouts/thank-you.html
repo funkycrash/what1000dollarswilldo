@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
 
+{% assign websiteContent = site.data.contentful.spaces.donor.websiteContent[0] %}
+
 	<head>
 		<meta charset="utf-8">
 
@@ -102,7 +104,7 @@
 							<span class="fragment fade-in" data-autoslide="2000">
 									<img src="/assets/img/icons/women.png" />
 									<span class="fragment fade-out">
-										<p>$1000 enables 2 Solar Mamas to go through an ENTREPRENEURIAL and LIFE SKILLS training in addition to her solar engineering training</p> 
+										<p>{{ websiteContent.gift_enabled1 }}</p> 
 								</span>
 							</span>
 							
@@ -111,7 +113,7 @@
 							<span class="fragment fade-in" data-autoslide="2000">
 								<img src="/assets/img/icons/lightbulb.png"/>
 								<span class="fragment fade-out">
-									<p>$1000 pays for 16 solar lanterns</p>
+									<p>{{ websiteContent.gift_enabled2 }}</p>
 								</span>
 							</span>
 						</div>
@@ -119,7 +121,7 @@
 							<span class="fragment fade-in"  data-autoslide="2000">
 								<img src="/assets/img/icons/house.png"/>
 								<span class="fragment fade-out">
-									<p>$1000 provides a SolarMama<br/> with 4 solar home light systems</p>
+									<p>{{ websiteContent.gift_enabled3 }}</p>
 								</span>
 							</span>
 						</div>
@@ -236,8 +238,8 @@
 
 				<section data-background="linear-gradient(#badb1c, #ffffff)" data-background-transition="zoom" data-autoslide="2000" data-transition-speed="slow">
 					<h3 class="max-width">Help us #FlipTheSwitch</h3><br/>
-					<p class="max-width">Provide pro bono advice to Barefoot College to help their global expansion, volunteer to educate the next generation about the SDGs, or fundraise with your clients to help train more solar mamas. Women are the changemakers. They are prepared for this moment in history to lead the way to a better life, economic growth, stronger communities and a better world. Walk Barefoot with us and leave your footprints for a better world.</p>
-					<p class="max-width">Contact us at citizenship.london@hoganlovells.com to get involved.</p>
+					<p class="max-width">{{ websiteContent.help_us }}</p><br/>
+					<p class="max-width">{{ websiteContent.help_us_email }}</p>
 					<br/>
 
 					{% include share-icons.html %}
