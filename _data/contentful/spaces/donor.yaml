@@ -22,16 +22,14 @@ websiteContent:
 - sys:
     id: 1vphFw2OzmeU6isqIY6OWa
     created_at: !ruby/object:DateTime 2018-02-02 01:26:42.815000000 Z
-    updated_at: !ruby/object:DateTime 2018-02-02 01:26:42.815000000 Z
+    updated_at: !ruby/object:DateTime 2018-02-21 01:06:54.474000000 Z
     content_type_id: websiteContent
   gift_enabled1: "$1000 enables 2 Solar Mamas to go through an ENTREPRENEURIAL and
     LIFE SKILLS training in addition to her solar engineering training"
   gift_enabled2: "$1000 pays for 16 solar lanterns"
-  gift_enabled3: "$1000 provides a SolarMama<br/> with 4 solar home light systems"
-  help_us: Provide pro bono advice to Barefoot College to help their global expansion,
-    volunteer to educate the next generation about the SDGs, or fundraise with your
-    clients to help train more solar mamas. Women are the changemakers. They are prepared
-    for this moment in history to lead the way to a better life, economic growth,
-    stronger communities and a better world. Walk Barefoot with us and leave your
-    footprints for a better world.
+  gift_enabled3: "$1000 provides a Solar Mama<br/> with 4 solar home light systems"
+  help_us: All Hogan Lovells staff can get involved by either offering pro bono advice
+    to Barefoot College to help their global expansion, volunteering to educate the
+    next generation about the SDGs, or fundraising with your clients to help train
+    more solar mamas.
   help_us_email: Contact us at citizenship.london@hoganlovells.com to get involved.
