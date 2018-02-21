@@ -46,10 +46,10 @@ $(document).ready(function(){
   // Fade out the music during video slide (on slide 9)
   Reveal.addEventListener( 'slidechanged', function( event ) {
     // event.previousSlide, event.currentSlide, event.indexh, event.indexv
-    if (event.indexh == 8) {
+    if (event.indexh == 5) {
       sound.fade(1.0, 0.2, 3);
     } 
-    if (event.indexh == 9 || event.indexh == 7) {
+    if (event.indexh == 4 || event.indexh == 6) {
       sound.fade(0.2, 1.0, 3);
     }
 
